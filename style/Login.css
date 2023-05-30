@@ -1,0 +1,136 @@
+#login-container{
+    background-color: #FFFF;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+    height: 100vh;
+    font-family:'Arial';
+}
+
+#login-Form{
+    border-radius: 2vh;
+    padding: 5vh;
+    width: 50vh;
+    height: 70vh;
+ background-color: #542785;   
+ box-shadow: 0 0 3vh #262627;
+ display: flex;
+flex-wrap: wrap;
+text-align: center;
+align-content: center;
+
+flex-direction: column;
+}
+#login-body .container{
+ height: 100vh !important;
+}
+#login-Title{
+    font-size: 5vh;
+    color: #B0006D;
+    text-shadow: 0vh .1vh .5vh #262627;
+}
+.display-4.text-center{
+    color: #7272AB;
+    font-weight: 500;
+}
+
+#login-FormGroup{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+#login-FormGroup > *{
+    width: 100%;
+}
+#login-FormGroup input{
+    padding-left: 1vh;
+    border-radius: 3vh;
+    border: 0;;
+    font-size: 2.5vh;
+    padding: .5vh;
+margin-bottom: 4vh;
+margin-top: 1vh;
+color: #542785;
+}
+
+#login-FormGroup label{
+    font-weight: 600;
+    color: white;
+}
+#login-body label{
+ color: #7272AB;
+ font-weight: 500;
+}
+
+
+#login-body input{
+    margin-bottom: 6vh;
+}
+.d-flex.justify-content-between.align-items-center a{
+    width: 15vh;
+    height: 5vh;
+   text-align: center;
+   text-decoration: none;
+    border: 2px solid #B0006D;
+    
+    transition:  .1s;
+    color: #B0006D;
+    }
+    
+    .d-flex.justify-content-between.align-items-center a:hover{
+        width: 15vh;
+        height: 5vh;
+       text-align: center;
+       text-decoration: none;
+        border: 2px solid #542785;
+        
+        transition:  .1s;
+        color: #542785;
+        }
+.d-flex.justify-content-between.align-items-center .btn.btn-primary{
+width: 15vh;
+background-color: #B0006D;
+border: 1px solid #B0006D;
+transition:  .1s;
+}
+
+.d-flex.justify-content-between.align-items-center .btn.btn-primary:hover{
+    background-color: #542785;
+    border: 1px solid #542785;
+    }
+
+    #login-logo{
+        background-repeat: no-repeat;
+    width: 10vh;
+    height: 10vh;
+    
+    }
+    
+    #login-imagecontainer{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+#login-SubmitBtn{
+    margin-top: 5vh;
+    font-size: 2vh;
+    color: white;
+    background-color: #B0006D;
+    border: 0;;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    height: 5vh;
+    transition: ease-in-out .2s;
+    border-radius: 2vh;
+}
+#login-SubmitBtn:hover{
+    font-size: 2vh;
+    background-color: #7272AB;
+    color: #B0006D;
+
+
+}

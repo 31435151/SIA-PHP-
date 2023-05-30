@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  font-family:'Arial';
+  font-size: 2.2vh;
+}
+#USB{
+  width: 25vh;
+ height: 100%;
+ box-shadow: 0px 5px 1vh #262627;
+ display: flex;
+ flex-direction: column;
+}
+
+#USB-home{
+  color: white !important;
+}
+
+#USB-home:hover{
+  color: #B2006F !important;
+}
+
+#USB > *{
+  background-color: white;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  text-align: start;
+  text-decoration: none;
+  font-family:'Arial';
+  font-size: 2.2vh;
+  cursor: pointer;
+  color: #542785;
+  font-weight: 600;
+}
+
+#USB a{
+  padding-left: 1vh;
+  transition: .1s;
+}
+
+
+#USB button{
+width:25vh;
+border: 0px;
+}
+
+#USB-DropdownBtn{
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  text-align: start;
+  font-family:'Arial';
+  font-size: 2.2vh;
+  cursor: pointer;
+  color: #542785;
+  font-weight: 600;
+  transition: .1s;
+
+}
+
+#USB-ContainerDropdown{
+  padding: 0vh;
+}
+
+#USB-ContainerDropdownBtn{
+  display: flex;
+  flex-direction: column;
+  font-family:'Arial';
+}
+
+#USB-ContainerDropdownBtn a{
+  padding-left: 1vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  color: #542785 !important;
+  background-color: #eeeef0;
+  text-decoration: none;
+}
+
+#USB-LogoutBtn{
+  background-color: #D9DBF1 !important;
+  color: #542785 !important;
+}
+
+#USB-LogoutBtn{
+  background-color: #542785;
+}
+
+
+#USB a:hover{
+  background-color: #542785 !important;
+  color: white;
+
+}
+
+#USB-DropdownBtn:hover{
+  background-color: #542785;
+  color: white;
+}
+
+#USB-LogoutBtn:hover{
+  background-color: #542785;
+  color: white;
+}
+
+#USB-ContainerDropdown #AC-ContainerDropdownBtn{
+  display: none;
+}
+
+#USB-ContainerDropdown:hover #AC-ContainerDropdownBtn{
+  display:flex;
+  }

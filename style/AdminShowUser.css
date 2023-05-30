@@ -1,0 +1,113 @@
+#UA{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    display: none;
+    font-family:'Arial';
+}
+
+
+#UA-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#UA-Header{
+    text-align: center;
+    font-family:'Arial';
+    color:  #B2006F;
+}
+
+#UA-Form{
+    width: 40vh;
+ 
+}
+
+#UA-Form > *{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 2vh;
+}
+#UA-Form div input{
+    font-size: 3vh;
+
+}
+#UA-Form div label{
+    font-size: 2vh;
+
+}
+#UA-Body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#UA-Footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+#UA-Footer > *{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 3vh;
+}
+
+#UA-Table{
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#UA-TableHead > *{
+    background-color: #542785;
+    width: 20vh;
+}
+
+#UA-TableItself{
+    border: 0;
+    border-radius: 2vh;
+}
+
+.UA-EditBtn{
+    color: white;
+    background-color: #B2006F;
+    font-weight: 600;
+    width: 10vh;
+    height: 3vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: 0;
+    transition: ease-in-out .1s;
+}
+
+#UA-EditBtn:hover{
+    cursor: pointer;
+    color:  #B2006F;
+    background-color:#D9DBF1;
+}
+#UA-DeleteBtn{
+    color: white;
+    background-color: #B2006F;
+    font-weight: 600;
+    width: 10vh;
+    height: 3vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: 0;
+    transition: ease-in-out .1s;
+}
+
+#UA-DeleteBtn:hover{
+    cursor: pointer;
+    color:  #B2006F;
+    background-color:#D9DBF1;
+}

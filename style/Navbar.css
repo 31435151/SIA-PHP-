@@ -1,0 +1,59 @@
+#NV-container {
+    box-shadow: 0vh 0vh 1vh #542785;
+  }
+  
+  .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #542785 !important;
+    color: white !important;
+  }
+  
+  .nav-link {
+    color: white !important;
+    transition: 0.1s;
+    font-size: 2vh;
+  }
+  
+  .nav-link:hover {
+    color: #9C0D38 !important;
+  }
+  
+  .navbar-brand {
+    color: #9C0D38 !important;
+    font-weight: 500;
+    font-size: 4vh;
+    transition: 0.1s;
+  }
+  
+  .navbar-brand:hover {
+    color: white !important;
+  }
+  
+  #NV-logo {
+    margin-right: 1vh;
+    width: 3vh;
+    height: 3vh;
+  }
+  
+  .NV-divider {
+    border-left: 0.3vh solid #7272AB;
+    height: 5vh;
+  }
+  
+  .form-control.mr-sm-2 {
+    border-radius: 1.5vh;
+    border: 0;
+    width: 50vh;
+    margin-right: 2vh !important;
+  }
+  
+  .btn.btn-outline-success.my-2.my-sm-0 {
+    border: 0.3vh solid #01172F;
+    color: #01172F;
+  }
+  
+  .btn.btn-outline-success.my-2.my-sm-0:hover {
+    border: 0.3vh solid #01172F;
+    color: white;
+    background-color: #01172F;
+  }
+  

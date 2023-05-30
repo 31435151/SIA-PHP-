@@ -1,0 +1,63 @@
+#UDEP{
+    width: 250vh !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D9DBF1;
+}
+
+#UDEP-Container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    text-align: start;
+    justify-content:center;
+}
+
+#UDEP-Whole{
+    background-color: #542785;
+    color: #B2006F !important;
+    padding: 3vh;
+    border-radius: 2vh;
+    text-shadow: 0vh .1vh .5vh #262627;
+}
+#UDEP-NewAmount{
+    margin-bottom: 4vh;
+    background-color: #D9DBF1;
+    border-radius: 2vh;
+    border: 0;
+    font-size: 2vh;
+    color: #542785;
+    height: 5vh;
+    padding-left: 1vh;
+    font-weight: 600;
+}
+#UDEP-NewAmountTxt{
+    color: white;
+    font-weight: 700;
+    font-size: 2vh;
+    margin-bottom: 2vh;
+}
+
+#UDEP-DepositBtn{
+    box-shadow: 0 0 1vh #262627;
+    color: white;
+    background-color: #B2006F;
+    font-weight: 600;
+    width: 15vh;
+    height: 5vh;
+    font-size: 2vh;
+    border-radius: 2vh;
+    border: 0;
+    margin-left: 12vh;
+    transition: ease-in-out .1s;
+}
+#UDEP-DepositBtn:hover{
+    cursor: pointer;
+    color:  #B2006F;
+    background-color:#D9DBF1;
+}

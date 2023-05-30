@@ -1,0 +1,63 @@
+#ACT-Form{
+   width: 50vh;
+    height: 60vh;
+    background-color: #542785;
+    padding: 5vh;
+    font-family:'Arial';
+    border-radius: 2vh;
+    box-shadow: 0 0 1vh #bababb;
+    color: white;
+    
+}
+
+#ACT-Container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#ACT-Container input,select{
+    padding-left: 1vh;
+    height: 4vh;
+    color: #542785;
+    background-color: #D9DBF1;
+    border-radius: 2vh;
+    width: 100%;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    border: 0;
+}
+
+#ACT-Container input:hover,select:hover{
+    padding-left: 1vh;
+  
+    color: white;
+    background-color: #D0C300;
+    border-radius: 2vh;
+    width: 100%;
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+    border: 0;
+    transition: ease-in .1s;
+
+}
+
+
+#ACT-SubmitBtn{
+background-color: #D0C300 !important;
+width: 15vh !important;
+height: 5vh;
+margin-left: 35vh;
+margin-top: 7vh;
+transition: ease-in .1s;
+}
+
+#ACT-SubmitBtn:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #542785 !important;
+}
